@@ -1,0 +1,16 @@
+# For LlamaIndex, vector store, and models
+llama-index
+llama_index.embeddings.openai
+llama-index-vector-stores-chroma
+chromadb
+pysqlite3-binary
+
+# For the web application and environment variables
+streamlit
+python-dotenv
+streamlit-authenticator
+
+# For online model querying
+llama_index.llms.google_genai
+llama_index.llms.openai
+llama_index.llms.anthropic

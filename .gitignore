@@ -1,0 +1,13 @@
+.env
+
+*.pyc
+*.pyo
+
+.vscode/
+.idea/
+
+.DS_Store
+
+chat_history/
+
+.streamlit/
