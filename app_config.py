@@ -24,12 +24,15 @@ UNIFIED_SYSTEM_INSTRUCTION = (
 )
 
 QUESTIONS = [
-    "How does Zentech balance employee privacy with its right to monitor and audit network activity?",
     "Is our data/code backed up? If so, where?",
     "How long are CCTV recordings backed up for?",
     "What all social media sites am i allowed to visit on the office computer?",
-    "What is the punishment for taking bribes?",
     "Are employees allowed to access their work pc's remotely?",
     "What is the complete employee on-boarding process?",
     "What are general guidelines for setting a passsword?",
+    "What is the escalation matrix for bugs in code",
+    "What personal devices am i allowed to carry into the office",
+    "How many leaves does an employee get every year",
+    "Who do i contact if i lose my ID card",
+    "What measures do we take to prevent from cyber attacks",
 ]
