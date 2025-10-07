@@ -148,11 +148,13 @@ def main_app():
         )
 
         chroma_client = chromadb.PersistentClient(path=PERSIST_DIR)
-        vector_store = ChromaVectorStore(chroma_collection=chroma_client.get_collection(name=COLLECTION_NAME))
+        chroma_collection = chroma_client.get_collection(name=COLLECTION_NAME)
+        num_chunks = chroma_collection.count()
+        vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
         index = VectorStoreIndex.from_vector_store(vector_store=vector_store)
 
         return index.as_query_engine(
-            similarity_top_k=10,
+            similarity_top_k=num_chunks,
             text_qa_template=PromptTemplate(UNIFIED_SYSTEM_INSTRUCTION),
         )
 
