@@ -7,7 +7,7 @@ AVAILABLE_MODELS = {
     "Anthropic Claude Sonnet 4": "claude-sonnet-4-20250514",
 }
 
-DEFAULT_MODEL_NAME = "Google Gemini 2.5 Pro"
+DEFAULT_MODEL_NAME = "OpenAI GPT-4.1"
 
 
 UNIFIED_SYSTEM_INSTRUCTION = (
