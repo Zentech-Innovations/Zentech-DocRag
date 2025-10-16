@@ -154,7 +154,8 @@ def main_app():
         index = VectorStoreIndex.from_vector_store(vector_store=vector_store)
 
         return index.as_query_engine(
-            similarity_top_k=num_chunks,
+            # similarity_top_k=num_chunks,
+            similarity_top_k=5,
             text_qa_template=PromptTemplate(UNIFIED_SYSTEM_INSTRUCTION),
         )
 

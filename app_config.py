@@ -23,24 +23,24 @@ UNIFIED_SYSTEM_INSTRUCTION = (
     "Answer: "
 )
 
-# QUESTIONS = [
-#     "Is our data/code backed up? If so, where?",
-#     "How long are CCTV recordings backed up for?",
-#     "What all social media sites am i allowed to visit on the office computer?",
-#     "Are employees allowed to access their work pc's remotely?",
-#     "What is the complete employee on-boarding process?",
-#     "What are general guidelines for setting a passsword?",
-#     "What is the escalation matrix for bugs in code",
-#     "What personal devices am i allowed to carry into the office",
-#     "How many leaves does an employee get every year",
-#     "Who do i contact if i lose my ID card",
-#     "What measures do we take to prevent from cyber attacks",
-# ]
-
 QUESTIONS = [
-    "Give me a detailed summary of this document.",
-    "What are the best practices for communication between the FDA and an industry in advance, during or after an inspection?",
-    "What is FDORA?",
-    "What is the FDA's BIMO program?",
-    "Who to Contact at FDA for More Information?",
+    "Is our data/code backed up? If so, where?",
+    "How long are CCTV recordings backed up for?",
+    "What all social media sites am i allowed to visit on the office computer?",
+    "Are employees allowed to access their work pc's remotely?",
+    "What is the complete employee on-boarding process?",
+    "What are general guidelines for setting a passsword?",
+    "What is the escalation matrix for bugs in code",
+    "What personal devices am i allowed to carry into the office",
+    "How many leaves does an employee get every year",
+    "Who do i contact if i lose my ID card",
+    "What measures do we take to prevent from cyber attacks",
 ]
+
+# QUESTIONS = [
+#     "Give me a detailed summary of this document.",
+#     "What are the best practices for communication between the FDA and an industry in advance, during or after an inspection?",
+#     "What is FDORA?",
+#     "What is the FDA's BIMO program?",
+#     "Who to Contact at FDA for More Information?",
+# ]
